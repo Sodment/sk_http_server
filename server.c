@@ -248,7 +248,7 @@ static int send_response(int fd,const http_request_t *request,const http_respons
 		}
 		case HTTP_METHOD_DELETE:
 		{
-			if(response->status.code == HTTP_STATUS_OK)
+			if(response->status.code == HTTP_STATUS_LOOKUP[HTTP_STATUS_OK].code)
 			{
 				fr=fopen(response->resource_path,"w");
 				if(fr)
