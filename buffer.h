@@ -2,7 +2,8 @@
 #define _BUFFER_H_
 #include <stdlib.h>
 #include <stdio.h>
-#include <limits.h
+#include <limits.h>
+//XD
 
 typedef struct
 {
