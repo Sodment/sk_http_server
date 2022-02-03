@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <limits.h>
-//Random comment for git
 
 typedef struct
 {
